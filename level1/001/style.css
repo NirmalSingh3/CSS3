@@ -1,0 +1,52 @@
+h1{
+    color:rgb(15, 142, 3);
+}
+/* rgb and hex are generally used */
+/* HEX 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F; 
+RANGE 00- ff*/
+/* rgb RANGE = 0 -255 */
+body{
+    background-color:#03f4fc;
+}
+/* selectors
+1.element  selector 
+tag_name{
+    property value pair
+}
+2. universal selector
+*{
+    propety : value pair
+    changes will be applied to whole document
+} 
+priority is down to up in css
+which means the style added in last will have higher priority
+3. id selelctor
+#id{
+property: value pair
+}
+4.class selector
+if want to apply chnages to different element with same id
+the as a experinced programmer we should use class selectors
+.class_name{
+
+}
+*/
+#headone{
+    color:red;
+}
+#headtwo{
+    color:blue;
+}
+.myclass{
+    color :magenta;
+}
+#box{
+    background-color:rgb(10, 24, 218);
+    color:white;
+}
+.heading{
+    color:red;
+}
+#click{
+    background-color: green;
+}

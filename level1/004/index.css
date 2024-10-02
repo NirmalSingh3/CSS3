@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head1 h1{
+    font-size: 50px;
+    text-align: center;
+    top: 0%;
+    text-transform: capitalize;
+}
+.head1 p{
+    color:rgb(23, 52, 201);
+}
+.head1{
+    background-color: yellow;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+}
+.head2{
+    padding-top: 10px;
+    background-color: antiquewhite;
+}
+.hlast h1{
+    font-size: 50px;
+    text-align: center;
+    top: 0%;
+    text-transform: capitalize;
+}
+.hlast{
+    position: sticky;
+    top: 0%;
+    background-color:yellow;
+}
+.footer h3{
+    text-align: center;
+    font-size: 30px;
+}
+.footer
+{
+    width: 100%;
+    position: absolute;
+    background-color: yellow;
+    text-transform: capitalize;
+}
+.baap
+{
+    background-color: blanchedalmond;
+}
+.sq{
+    width: 100px; /* adjust the width of the square */
+    aspect-ratio: 1/1; /* maintain a 1:1 aspect ratio */
+    background-color: #ccc; /* adjust the color of the square */
+    border: 1px solid #000; /* adjust the border of the square */
+  }
+  .sq:hover{
+    transition: all 2s cubic-bezier(0.4 0, 0.2, 1);
+    border-radius: 100px;
+  }
+  .sqr1{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

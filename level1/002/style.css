@@ -1,0 +1,33 @@
+/* text alingment */
+p{
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    /* text decoration */
+    text-decoration:underline ;
+    /* it can be overline and line through */
+}
+a{
+    text-decoration: none;
+}
+/* font weight light<-->dark */
+#h1{
+    font-weight:normal;
+    /* varies from 100 to 900 */
+}
+#h2{
+    font-weight: lighter;
+}
+#h3 {
+    text-decoration: red dashed underline;
+}
+/* font family 1:32 */
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* fall back mechanism */
+}
+/* units in css
+pixel(px)
+96 px= 1 inch
+font-size:2px; */
