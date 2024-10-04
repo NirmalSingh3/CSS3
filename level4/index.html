@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level 4 box model</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+        }
+        .padding
+        {
+            height: 50px;
+            width: 50px;
+            padding: 5px 5px 5px 5px;
+            margin: 2px 4px 6px 8px;
+            background-color: rgb(219, 192, 192);
+        }
+        #first
+        {
+            margin: 10px;
+        }
+        #sec
+        {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- margin->border->padding->content -->
+     <div class="padding">
+        content
+     </div>
+     <div id="first"> first div</div>
+     <div id="sec"> second div</div>
+</body>
+</html>
