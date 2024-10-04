@@ -20,16 +20,27 @@
         }
         #first
         {
+            height: 50px;
+            width: 50px;
             margin: 10px;
+            border: 5px solid red;
+            border-radius: 2px 3px 5px 6px;
+            box-sizing: border-box;
         }
         #sec
         {
+            height: 50px;
+            width: 50px;
             margin: 10px;
+            border: 2px dashed green;
+            border-radius: 10px;
+            /* box-sizing: content-box; by default */
         }
     </style>
 </head>
 <body>
     <!-- margin->border->padding->content -->
+     <!-- border and padding are counetd in the height and width of the element while margin is not bcoz its common for elemnts selects whose margon value is more -->
      <div class="padding">
         content
      </div>
