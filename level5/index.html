@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS level 5</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .box
+        {
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            /* display: inline;  */
+            /* when we set display: inline; the we cannot set elements width and height for this we can use inline-block*/
+            display: inline-block;
+        }
+        #box1
+        {
+            color: aqua;
+            /* display: none;  */
+            /* remove the whole element not like visibility just dissapper the element after display: none; it does not takes space  */
+        }
+        #first
+        {
+            height: 200px;
+            width: 200px;
+            background-color: cadetblue;
+            font-size: 25px;
+        }
+        #second
+        {
+            background-color: blueviolet;
+            width: 50%;
+            height: 30%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header><h1>level 5 is here</h1></header>
+    <main><div class="box" id="box1"> box 1 </div>
+    <div class="box" id="box2"> box 2 </div>
+    <div id="first">
+        first
+        <div id="second">
+            second
+        </div>
+    </div>
+
+</main>
+    <footer></footer>
+</body>
+</html>
