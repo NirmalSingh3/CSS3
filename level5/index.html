@@ -9,6 +9,7 @@
         {
             margin: 0;
             padding: 0;
+            font-size: 10px;
         }
         .box
         {
@@ -39,22 +40,55 @@
             width: 50%;
             height: 30%;
         }
-
-
+        #em1
+        {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            font-size: 25px;
+        }
+        #em2
+        {
+            background-color: blueviolet;
+            width: 70%;
+            height: 50%;
+            /* font-size: 2em; */
+            font-size: 2rem;
+        }
+        #vhvw
+        {
+            background-color: red;
+            height: 50vh;
+            width: 60vh;
+        }
     </style>
 </head>
 <body>
+    this is body text for rem
     <header><h1>level 5 is here</h1></header>
     <main><div class="box" id="box1"> box 1 </div>
     <div class="box" id="box2"> box 2 </div>
+    <!-- relative unit: percentage -->
     <div id="first">
         first
         <div id="second">
             second
         </div>
     </div>
+    <!-- relative unit: em it takes the size on the basis of its parent-->
+     <!-- relative unit REM it takes on the basis of Root element not parent -->
+     <div id="em1">
+        first
+        <div id="em2">
+            second
+        </div>
+     </div>
 
-</main>
+     <!-- the full area visible is knowna as viewport like vh and vw viewport height and viewport width -->
+      <div id="vhvw">
+        this is example of vw and vh
+      </div>
+    </main>
     <footer></footer>
 </body>
 </html>
