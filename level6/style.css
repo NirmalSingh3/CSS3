@@ -1,0 +1,27 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.float
+{
+    height: 110px;
+    width: 500px;
+    border: 2px solid black;
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: blue;
+    float: left;
+}
+.box2
+{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: red;
+    float: right;
+}
